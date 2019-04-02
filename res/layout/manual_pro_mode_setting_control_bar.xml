@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/manual_mode_setting_control_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="end|center|top" android:orientation="vertical" android:background="@drawable/manual_manual_adv_control_bar_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/manual_mode_control_bar_margin_top" android:layout_marginEnd="@dimen/manual_mode_control_bar_margin_end">
+        <com.android.camera.ui.RotateLayout android:id="@id/manual_pro_mode_awb_current_item_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout style="@style/ProModeTextViewContainer">
+                <ImageView android:id="@id/ll_pro_mode_manual_awb" style="@style/ProModeOptionImage" />
+                <TextView android:id="@id/tv_pro_mode_manual_awb" style="@style/ProModeTextView" />
+            </FrameLayout>
+        </com.android.camera.ui.RotateLayout>
+        <com.android.camera.ui.RotateLayout android:id="@id/manual_pro_mode_mf_current_item_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout style="@style/ProModeTextViewContainer">
+                <ImageView android:id="@id/ll_pro_mode_manual_mf" android:src="@drawable/main_focus" style="@style/ProModeOptionImage" />
+                <TextView android:id="@id/tv_pro_mode_manual_mf" style="@style/ProModeTextView" />
+            </FrameLayout>
+        </com.android.camera.ui.RotateLayout>
+        <com.android.camera.ui.RotateLayout android:id="@id/manual_pro_mode_iso_current_item_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout style="@style/ProModeTextViewContainer">
+                <ImageView android:id="@id/ll_pro_mode_manual_iso" android:src="@drawable/main_iso" style="@style/ProModeOptionImage" />
+                <TextView android:id="@id/tv_pro_mode_manual_iso" style="@style/ProModeTextView" />
+            </FrameLayout>
+        </com.android.camera.ui.RotateLayout>
+        <com.android.camera.ui.RotateLayout android:id="@id/manual_pro_mode_et_current_item_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout style="@style/ProModeTextViewContainer">
+                <ImageView android:id="@id/ll_pro_mode_manual_et" android:src="@drawable/main_shutterspeed" style="@style/ProModeOptionImage" />
+                <TextView android:id="@id/tv_pro_mode_manual_et" style="@style/ProModeTextView" />
+            </FrameLayout>
+        </com.android.camera.ui.RotateLayout>
+        <com.android.camera.ui.RotateLayout android:id="@id/manual_pro_mode_ev_current_item_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout style="@style/ProModeTextViewContainer">
+                <ImageView android:id="@id/ll_pro_mode_manual_ev" android:src="@drawable/main_ev" style="@style/ProModeOptionImage" />
+                <TextView android:id="@id/tv_pro_mode_manual_ev" style="@style/ProModeTextView" />
+            </FrameLayout>
+        </com.android.camera.ui.RotateLayout>
+        <com.android.camera.ui.RotateLayout android:id="@id/manual_pro_mode_wt_current_item_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout style="@style/ProModeTextViewContainer">
+                <ImageView android:id="@id/ll_pro_mode_manual_wt" style="@style/ProModeOptionImage" />
+                <TextView android:id="@id/tv_pro_mode_manual_wt" style="@style/ProModeTextView" />
+            </FrameLayout>
+        </com.android.camera.ui.RotateLayout>
+        <com.android.camera.ui.RotateLayout android:id="@id/manual_pro_mode_zoom_current_item_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout style="@style/ProModeTextViewContainer">
+                <ImageView android:id="@id/ll_pro_mode_manual_zoom" style="@style/ProModeOptionImage" />
+                <TextView android:id="@id/tv_pro_mode_manual_zoom" style="@style/ProModeTextView" />
+            </FrameLayout>
+        </com.android.camera.ui.RotateLayout>
+    </LinearLayout>
+    <com.android.camera.ui.ProModeHintItemLayout android:id="@id/manual_pro_mode_hint_item_rotate_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/manual_mode_control_bar_hint_text_size" android:textColor="@android:color/white" android:id="@id/manual_pro_mode_hint_item" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextShadow" />
+        </RelativeLayout>
+    </com.android.camera.ui.ProModeHintItemLayout>
+</FrameLayout>

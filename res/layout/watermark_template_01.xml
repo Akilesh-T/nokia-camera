@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.watermark.WatermarkFragmentLayout android:id="@id/watermark_fragment_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.watermark.WatermarkViewLayout android:id="@id/watermark_view_root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/function_watermark_template_01_margin_bottom" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/function_watermark_template_01_margin_start" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/watermark_template_container" android:padding="@dimen/function_watermark_template_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/weather_current_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/function_watermark_template_01_weather_icon_margin_start" android:src="@drawable/wt_00_widget_no_info" />
+            <View android:id="@id/weather_divide_line" android:background="#b3ffffff" android:layout_width="fill_parent" android:layout_height="@dimen/function_watermark_template_01_divider_height" android:layout_marginTop="@dimen/function_watermark_template_01_divider_margin_top" android:layout_marginBottom="@dimen/function_watermark_template_01_divider_margin_bottom" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/watermark_time" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/watermark_time_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wt_time" />
+                <TextClock android:layout_gravity="center_vertical" android:shadowColor="#ff000000" android:layout_marginStart="@dimen/function_watermark_template_01_time_text_margin_start" android:format12Hour="h:mm a" android:format24Hour="HH:mm" style="@style/watermark_stamp_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/watermark_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/function_watermark_template_01_location_margin_top">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/watermark_location_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wt_location" />
+                <LinearLayout android:id="@id/watermark_location_text_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/function_watermark_template_01_location_text_margin_start">
+                    <TextView android:id="@id/watermark_location_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/function_watermark_template_01_location_text_margin_vertical" android:layout_marginBottom="@dimen/function_watermark_template_01_location_text_margin_vertical" android:text="@string/no_location_information" android:layout_marginStart="@dimen/function_watermark_template_01_location_text_margin_horizontal" android:layout_marginEnd="@dimen/function_watermark_template_01_location_text_margin_horizontal" style="@style/watermark_stamp_style" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/watermark_template_edit_controller" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/watermark_template_container" android:layout_alignBottom="@id/watermark_template_container" android:layout_alignStart="@id/watermark_template_container" android:layout_alignEnd="@id/watermark_template_container">
+            <ImageView android:background="@drawable/watermark_edit_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/function_watermark_template_padding" android:layout_centerInParent="true" android:layout_marginStart="@dimen/function_watermark_template_padding" />
+            <ImageView android:id="@id/watermark_template_edit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/edit_text" android:layout_alignParentStart="true" />
+            <ImageView android:id="@id/watermark_template_edit_location" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/edit_poi" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </com.android.camera.ui.watermark.WatermarkViewLayout>
+</com.android.camera.ui.watermark.WatermarkFragmentLayout>

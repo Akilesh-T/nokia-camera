@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="prefscreen_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.settings.ManagedListPreference android:entries="@array/pref_live_broadcast_account_weibo_privacy_entries" android:title="@string/pref_live_broadcast_privacy_title" android:key="pref_live_broadcast_account_weibo_privacy" android:summary="%s" android:defaultValue="@string/pref_live_broadcast_account_weibo_privacy_default" android:entryValues="@array/pref_live_broadcast_account_weibo_privacy_entryvalues" />
+    <com.android.camera.settings.ManagedListPreference android:entries="@array/pref_live_broadcast_account_youtube_privacy_entries" android:title="@string/pref_live_broadcast_privacy_title" android:key="pref_live_broadcast_account_youtube_privacy" android:summary="%s" android:defaultValue="@string/pref_live_broadcast_account_youtube_privacy_default" android:entryValues="@array/pref_live_broadcast_account_youtube_privacy_entryvalues" />
+    <com.android.camera.settings.ManagedListPreference android:entries="@array/pref_live_broadcast_account_facebook_privacy_entries" android:title="@string/pref_live_broadcast_privacy_title" android:key="pref_live_broadcast_account_facebook_privacy" android:summary="%s" android:defaultValue="@string/pref_live_broadcast_account_facebook_privacy_default" android:entryValues="@array/pref_live_broadcast_account_facebook_privacy_entryvalues" />
+    <Preference android:clickable="false" android:title="@string/pref_live_broadcast_account_title" android:key="pref_live_broadcast_account_weibo" />
+    <Preference android:clickable="false" android:title="@string/pref_live_broadcast_account_title" android:key="pref_live_broadcast_account_youtube" />
+    <Preference android:clickable="false" android:title="@string/pref_live_broadcast_account_title" android:key="pref_live_broadcast_account_facebook" />
+    <com.android.camera.settings.LogoutDialogPreference android:title="@string/pref_live_broadcast_logout_title" android:key="pref_live_broadcast_logout" android:dialogMessage="@string/pref_live_broadcast_logout_dialog_message" android:positiveButtonText="@string/pref_live_broadcast_logout_dialog_ok" android:negativeButtonText="@string/pref_live_broadcast_logout_dialog_cancel" />
+</PreferenceScreen>

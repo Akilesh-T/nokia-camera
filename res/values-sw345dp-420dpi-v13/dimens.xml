@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="shutter_button_max_scroll_range_bottom">17.0dip</dimen>
+    <dimen name="shutter_button_max_scroll_range_top">26.0dip</dimen>
+</resources>

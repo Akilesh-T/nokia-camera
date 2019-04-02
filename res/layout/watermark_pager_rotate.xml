@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.watermark.WatermarkPagerRotateLayout android:id="@id/watermark_pager_rotate" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/bottom_bar_height_optimal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/watermark_pager_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.camera.ui.watermark.WatermarkViewPager android:id="@id/watermark_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/watermark_control_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/watermark_close" android:background="@drawable/watermark_close_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <TextView android:textSize="@dimen/function_watermark_close_text_size" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/watermark_close_text" android:layout_width="wrap_content" android:layout_height="@dimen/function_watermark_close_text_height" android:layout_marginLeft="@dimen/function_watermark_close_text_margin_left" android:layout_marginRight="@dimen/function_watermark_close_text_margin_right" android:text="@string/pref_watermark_show_title" android:layout_alignParentTop="true" android:fontFamily="sans-serif" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/watermark_close_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/function_watermark_close_image_margin_right" android:src="@drawable/close_watermark" />
+            </LinearLayout>
+            <ImageButton android:id="@id/watermark_previous_arrow" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_watermark_previous" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageButton android:id="@id/watermark_next_arrow" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_watermark_next" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.android.camera.ui.watermark.WatermarkViewPagerIndicator android:id="@id/watermark_pager_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</com.android.camera.ui.watermark.WatermarkPagerRotateLayout>

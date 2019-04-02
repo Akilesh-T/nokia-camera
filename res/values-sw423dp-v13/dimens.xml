@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_bar_height_max">188.1dip</dimen>
+    <dimen name="bottom_bar_height_max_large_screen">238.29999dip</dimen>
+    <dimen name="bottom_bar_height_min">188.1dip</dimen>
+    <dimen name="bottom_bar_height_min_large_screen">238.29999dip</dimen>
+    <dimen name="bottom_bar_height_optimal">188.1dip</dimen>
+    <dimen name="bottom_bar_height_optimal_large_screen">238.29999dip</dimen>
+    <dimen name="bottom_bar_mode_text_margin_top">8.199982dip</dimen>
+    <dimen name="bottom_bar_mode_text_margin_top_large_screen">15.399994dip</dimen>
+    <dimen name="mode_control_bar_margin_bottom">188.1dip</dimen>
+    <dimen name="mode_options_height">44.19998dip</dimen>
+</resources>

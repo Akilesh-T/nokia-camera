@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_info_white_on" android:id="@id/action_text_search" android:title="@string/pref_camera_settings_category" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_info_outline_white_off" android:id="@id/action_text_copy" android:title="@string/pref_camera_settings_category" android:showAsAction="ifRoom" />
+</menu>

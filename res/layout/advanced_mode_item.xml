@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.AdvancedModeItem android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/mode_list_item_margin_bottom" android:layout_marginStart="@dimen/mode_list_item_margin_start" android:layout_marginEnd="@dimen/mode_list_item_margin_start">
+        <ImageView android:layout_gravity="left" android:id="@id/advanced_mode_item_icon" android:layout_width="@dimen/mode_list_icon_block_width" android:layout_height="@dimen/mode_list_icon_block_width" />
+        <TextView android:textSize="@dimen/mode_list_item_text_size" android:textColor="@color/mode_list_item_text" android:gravity="center_vertical" android:layout_gravity="center|left" android:id="@id/advanced_mode_item_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fontFamily="sans-serif" android:layout_marginStart="@dimen/mode_list_item_text_margin_start" android:layout_marginEnd="@dimen/mode_list_item_text_margin_start" />
+    </LinearLayout>
+</com.android.camera.ui.AdvancedModeItem>

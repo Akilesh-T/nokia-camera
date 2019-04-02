@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/mode_control_bar_margin_bottom">
+        <com.android.camera.ui.PanoramaPreview android:id="@id/pano_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.android.camera.ui.RotateLayout android:id="@id/rotate_hint_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:id="@id/hint_message" android:background="@drawable/toast_frame" android:layout_marginBottom="@dimen/rotate_text_toast_margin_bottom" android:text="@string/hint_message_press" style="@style/ToastInfo" />
+            </RelativeLayout>
+        </com.android.camera.ui.RotateLayout>
+    </RelativeLayout>
+</FrameLayout>

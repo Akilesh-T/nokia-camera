@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.SceneDetectionRotateLayout android:id="@id/scene_detection_rotate" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/mode_options_height" android:layout_marginBottom="@dimen/bottom_bar_height_optimal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/scene_detection_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/scene_detection_display" android:background="@drawable/scene_detection_background" android:layout_width="wrap_content" android:layout_height="@dimen/scene_detection_display_height" android:layout_centerHorizontal="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/scene_detection_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/function_scene_detection_icon_margin_left" />
+            <TextView android:textSize="@dimen/function_scene_detection_name_size" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/scene_detection_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/function_scene_detection_name_margin_left" android:text="@string/pref_scene_detection_title" android:fontFamily="sans-serif" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/scene_detection_close_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/function_scene_detection_close_image_margin_left" android:layout_marginRight="@dimen/function_scene_detection_close_image_margin_right" android:src="@drawable/close_watermark" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.android.camera.ui.SceneDetectionRotateLayout>

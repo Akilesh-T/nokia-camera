@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="access_sd_fail">"Impossible d'accéder à la carte SD."</string>
+    <string name="barcode_license_format_content">"NuméroLicence : %1$s
+adresseVille : %2$s
+adresseProvince : %3$s
+adresseRue : %4$s
+adresseCodePostal : %5$s
+DateNaissance : %6$s 
+typeDocument : %7$s
+dateExpiration : %8$s
+prénom : %9$s
+secondPrénom : %10$s
+nom : %11$s
+sexe : %12$s
+dateÉmission : %13$s
+paysÉmission : %14$s"</string>
+    <string name="barcode_show_text_activity_label">Lecteur de codes QR</string>
+    <string name="barcode_text_second_button_text">RECHERCHE DANS LE NAVIGATEUR</string>
+    <string name="barcode_title_calendar">Ajouter au calendrier</string>
+    <string name="barcode_title_email">Composer un courriel à</string>
+    <string name="barcode_title_geo">Ouvrir dans le mappage</string>
+    <string name="barcode_title_isbn">Recherche dans le navigateur</string>
+    <string name="barcode_title_license">"Afficher la licence de plongeur / Information d'identification"</string>
+    <string name="barcode_title_sms">Composer un message à</string>
+    <string name="barcode_title_text">Afficher le texte</string>
+    <string name="barcode_title_url">Ouvrir dans le navigateur</string>
+    <string name="barcode_title_wifi">Connecter au réseau Wi-Fi</string>
+    <string name="beauty_mode_off">Beauté - désactivé</string>
+    <string name="beauty_mode_off_desc">Beauté - désactivé</string>
+    <string name="beauty_mode_on">Beauté - activé</string>
+    <string name="beauty_mode_on_desc">Beauté - activé</string>
+    <string name="copy_complete">Copie terminée</string>
+    <string name="dualsight_setting_off">Double rafale - désactivé</string>
+    <string name="dualsight_setting_on">Double rafale - activé</string>
+    <string name="dualsight_tutorial_hint">"Appuyer, maintenir enfoncé et glisser le séparateur pour ajuster le ratio de l'écran"</string>
+    <string name="dualsight_tutorial_pinch_hint">"Pincer pour effectuer le zoom de l'extérieur du panneau de commande"</string>
+    <string name="effect_download_no_network">Aucune connexion Internet, réessayez plus tard</string>
+    <string name="effect_download_unload_dialog_message">"Êtes-vous certain de vouloir supprimer? 
+L'élément ne pourra pas être téléchargé du nuage."</string>
+    <string name="effect_resources_have_update">La ressource a été mise à jour, veuillez la télécharger de nouveau.</string>
+    <string name="g_depth_type_description">Cette photo comporte une carte de profondeur et peut être remise au point</string>
+    <string name="g_depth_type_name">Profondeur</string>
+    <string name="mode_selifebokeh_desc">"Passer au mode Bokeh d'égoportrait"</string>
+    <string name="mode_square_desc">Passer au mode Carré</string>
+    <string name="motion_mode_off">Mouvement - désactivé</string>
+    <string name="motion_mode_off_desc">Mouvement - désactivé</string>
+    <string name="motion_mode_on">Mouvement - activé</string>
+    <string name="motion_mode_on_desc">Mouvement - activé</string>
+    <string name="msg_burst_not_support_in_bokeh">"La prise de photos en rafale n'est pas prise en charge en mode Bokeh en direct."</string>
+    <string name="msg_ozo_enabled">OZO Audio est activé.</string>
+    <string name="no_storage">"Veuillez insérer une carte SD avant d'utiliser la caméra."</string>
+    <string name="permission_location_denied">"Option Obtenir emplacement refusée, impossible de baliser l'emplacement."</string>
+    <string name="pref_brand_logo_show_description">Afficher le filigrane sur les photos</string>
+    <string name="pref_camera_auto_hdr_description">Mode Photo seulement</string>
+    <string name="pref_camera_auto_hdr_title">Prise en charge HDR</string>
+    <string name="pref_camera_bokeh_status_hint_message">"Sélectionner un sujet pour afficher l'effet Bokeh en direct"</string>
+    <string name="pref_camera_bokeh_status_no_depth">Aucune profondeur</string>
+    <string name="pref_camera_bokeh_status_no_object">Aucun sujet trouvé</string>
+    <string name="pref_camera_bokeh_status_sucess">Profondeur réussie</string>
+    <string name="pref_camera_bokeh_status_too_dark">Trop foncé</string>
+    <string name="pref_camera_bokeh_status_too_far">Trop loin</string>
+    <string name="pref_camera_bokeh_status_too_near">Trop près</string>
+    <string name="pref_camera_whitebalance_title">Balance des blancs</string>
+    <string name="pref_common_raw_support_boolean_description">Mode Photo et Pro seulement</string>
+    <string name="pref_common_raw_support_boolean_title">Prise en charge des fichiers RAW</string>
+    <string name="pref_manage_mode_description">"Vous pouvez changer l'ordre des modes en fonction de votre utilisation"</string>
+    <string name="pref_manage_mode_title">Gestion des modes</string>
+    <string name="pref_raw_files_support_dng">Enregistrer les fichiers RAW en format DNG</string>
+    <string name="pref_raw_files_support_lri">Enregistrer les fichiers RAW en format LRI</string>
+    <string name="pref_raw_files_support_title">"Prise en charge de fichiers RAW
+ (mode Pro et Photo partielle seulement)"</string>
+    <string name="pref_scene_detection_description">Détecter différentes scènes pour appliquer différents paramètres optiques automatiquement</string>
+    <string name="pref_video_time_lapse_frame_interval_2500">25 secondes</string>
+    <string name="preparing_sd">Préparation de la carte SD en cours…</string>
+    <string name="pro_mode_tutorial_swipe_down_hint">"Balayez l'obturateur vers le bas pour fermer la bague du mode Pro."</string>
+    <string name="pro_mode_tutorial_swipe_exit_hint">"Balayez l'obturateur vers le bas de nouveau pour sortir du mode Pro."</string>
+    <string name="pro_mode_tutorial_swipe_up_once_hint">"Balayez l'obturateur vers le haut pour activer le mode Pro."</string>
+    <string name="pro_mode_tutorial_swipe_up_twice_hint">"Balayez l'obturateur vers le bas de nouveau pour réinitialiser les paramètres."</string>
+    <string name="scene_animal">Animal</string>
+    <string name="scene_baby">Bébé</string>
+    <string name="scene_bar">Bar</string>
+    <string name="scene_buildings">bâtiments</string>
+    <string name="scene_cafeteria">Cafétéria</string>
+    <string name="scene_cat">Chat</string>
+    <string name="scene_credentials">Attestations</string>
+    <string name="scene_dessert">Dessert</string>
+    <string name="scene_dog">Chien</string>
+    <string name="scene_fireworks">"Feux d'artifice"</string>
+    <string name="scene_green_plant">Plante verte</string>
+    <string name="scene_handwritten_text">Texte manuscrit</string>
+    <string name="scene_indoor">Intérieur</string>
+    <string name="scene_landscape">Paysage</string>
+    <string name="scene_nightscape">Paysage nocturne</string>
+    <string name="scene_ocean">Océan</string>
+    <string name="scene_outdoor">Extérieur</string>
+    <string name="scene_plant">Plante</string>
+    <string name="scene_printed_text">Texte imprimé</string>
+    <string name="scene_projector_screen">Écran de projecteur</string>
+    <string name="scene_qrcode">Qrcode</string>
+    <string name="scene_receipt">Reçu</string>
+    <string name="scene_skeyscraper">Gratte-ciel</string>
+    <string name="scene_sky">Ciel</string>
+    <string name="scene_sports">Sports</string>
+    <string name="scene_sunrise_sunset">Lever du soleil coucher du soleil</string>
+    <string name="scene_wedding">Mariage</string>
+    <string name="spaceIsLow_content">"L'espace disponible sur votre carte SD est insuffisant. Modifiez les paramètres de qualité, ou supprimez des images ou d'autres fichiers."</string>
+    <string name="white_balance">Balance des blancs</string>
+    <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
+    <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
+    <string name="abc_action_menu_overflow_description">"Plus d'options"</string>
+    <string name="abc_action_mode_done">Terminé</string>
+    <string name="abc_activity_chooser_view_see_all">Voir toutes les chaînes</string>
+    <string name="abc_activitychooserview_choose_application">Sélectionnez une application</string>
+    <string name="abc_capital_off">DÉSACTIVÉ</string>
+    <string name="abc_capital_on">ACTIVÉ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">supprimer</string>
+    <string name="abc_menu_enter_shortcut_label">entrée</string>
+    <string name="abc_menu_function_shortcut_label">Fonction+</string>
+    <string name="abc_menu_meta_shortcut_label">Méta+</string>
+    <string name="abc_menu_shift_shortcut_label">Maj+</string>
+    <string name="abc_menu_space_shortcut_label">espace</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Recherche en cours...</string>
+    <string name="abc_searchview_description_clear">Effacer la requête</string>
+    <string name="abc_searchview_description_query">Requête de recherche</string>
+    <string name="abc_searchview_description_search">Rechercher</string>
+    <string name="abc_searchview_description_submit">Envoyer la requête</string>
+    <string name="abc_searchview_description_voice">Recherche vocale</string>
+    <string name="abc_shareactionprovider_share_with">Partager</string>
+    <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
+    <string name="abc_toolbar_collapse_description">Réduire</string>
+    <string name="common_android_wear_notification_needs_update_text">"%1$s nécessite une mise à jour de l'application Android Wear."</string>
+    <string name="common_android_wear_update_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas mis à jour l'application Android Wear."</string>
+    <string name="common_android_wear_update_title">Mettre à jour Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text">"%1$s nécessite un ou plusieurs services Google Play qui ne sont pas disponibles actuellement. Veuillez communiquer avec le développeur pour obtenir de l'aide."</string>
+    <string name="common_google_play_services_enable_button">Activer les services Google Play</string>
+    <string name="common_google_play_services_enable_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas activé les services Google Play."</string>
+    <string name="common_google_play_services_enable_title">Activer les services Google Play</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Demandée par %1$s</string>
+    <string name="common_google_play_services_install_button">Installer les services Google Play</string>
+    <string name="common_google_play_services_install_text_phone">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre téléphone.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre tablette.</string>
+    <string name="common_google_play_services_install_title">Installer les services Google Play</string>
+    <string name="common_google_play_services_invalid_account_text">"Le compte indiqué n'existe pas sur cet appareil. Veuillez sélectionner un autre compte."</string>
+    <string name="common_google_play_services_invalid_account_title">Compte erroné</string>
+    <string name="common_google_play_services_needs_enabling_title">"Une application requiert l'activation des services Google Play."</string>
+    <string name="common_google_play_services_network_error_text">"Vous devez disposer d'une connexion de données pour utiliser les services Google Play."</string>
+    <string name="common_google_play_services_network_error_title">Erreur réseau</string>
+    <string name="common_google_play_services_notification_needs_update_title">Une application requiert la mise à jour des services Google Play.</string>
+    <string name="common_google_play_services_notification_ticker">Erreur liée aux services Google Play</string>
+    <string name="common_google_play_services_sign_in_failed_text">Erreur lors de la connexion au compte indiqué. Veuillez en sélectionner un autre.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Échec de connexion.</string>
+    <string name="common_google_play_services_unknown_issue">Problème inconnu avec les services Google Play.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s dépend des services Google Play, qui ne sont pas compatibles avec votre appareil. Veuillez communiquer avec le fabricant pour obtenir de l'aide."</string>
+    <string name="common_google_play_services_unsupported_title">Services Google Play</string>
+    <string name="common_google_play_services_update_button">Mettre à jour</string>
+    <string name="common_google_play_services_update_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas mis à jour les services Google Play."</string>
+    <string name="common_google_play_services_update_title">Mettre à jour les services Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s ne fonctionnera pas sans les services Google Play, qui sont en cours de mise à jour.</string>
+    <string name="common_google_play_services_updating_title">Mise à jour des services Google Play</string>
+    <string name="common_open_on_phone">Ouvrir sur le téléphone</string>
+    <string name="common_signin_button_text">Connexion</string>
+    <string name="common_signin_button_text_long">Se connecter via Google</string>
+    <string name="search_menu_title">Rechercher</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

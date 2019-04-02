@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.AdvancedBottomCaptureLayout android:id="@id/sticky_bottom_capture_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/mode_options_overlay" />
+    <com.android.camera.ui.AdvancedBottomBar android:gravity="center" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/bottom_bar_contents" />
+        <include layout="@layout/review_thumbnail" />
+        <include layout="@layout/camera_video_snapshot_control" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bottom_bar_capture_margin_top" android:layout_marginStart="@dimen/bottom_bar_switch_camera_margin_start">
+            <com.android.camera.MultiToggleImageButton android:layout_gravity="start|center" android:id="@id/camera_toggle_button" android:layout_width="@dimen/bottom_bar_switch_camera_button_size" android:layout_height="@dimen/bottom_bar_switch_camera_button_size" />
+        </FrameLayout>
+    </com.android.camera.ui.AdvancedBottomBar>
+</com.android.camera.ui.AdvancedBottomCaptureLayout>

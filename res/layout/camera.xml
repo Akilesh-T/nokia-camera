@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/camera_app_root" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.CustomTextureView android:id="@id/preview_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.PreviewTransitionView android:id="@id/preview_transition_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.focus.FocusRingView android:id="@id/focus_ring" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.CaptureAnimationOverlay android:id="@id/capture_overlay" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.PreviewOverlay android:id="@id/preview_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.FaceView android:id="@id/face_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/hdr_badge" />
+    <include layout="@layout/sr_badge" />
+    <FrameLayout android:id="@id/module_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.SwitchAnimationView android:id="@id/rotateview_content" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/rotateview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    </com.android.camera.ui.SwitchAnimationView>
+    <include layout="@layout/sticky_bottom_capture_layout" />
+    <FrameLayout android:id="@id/dualsight_anim_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.65" />
+        <ImageView android:id="@id/dualsight_anim_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/pro_manual_module_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/mode_options_expand_root" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="20.0dip" android:textColor="@android:color/holo_red_light" android:id="@id/QC_3A_DEBUG" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:text="DEBUG MODE" />
+    <FrameLayout android:id="@id/tutorials_placeholder_wrapper" android:background="@android:color/transparent" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/scene_detection_barcode_layout" />
+</FrameLayout>

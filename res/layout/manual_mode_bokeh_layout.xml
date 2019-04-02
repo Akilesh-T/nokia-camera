@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout_mode_manual_bokeh" style="@style/ManualModeLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.RotateLayout android:id="@id/manual_mode_bokeh_current_item_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout style="@style/ManualModeTextViewContainer">
+            <ImageView android:id="@id/ll_mode_manual_bokeh" style="@style/ManualModeOptionImage_Bokeh" />
+            <TextView android:id="@id/tv_mode_manual_bokeh" style="@style/ManualModeTextView" />
+        </FrameLayout>
+    </com.android.camera.ui.RotateLayout>
+    <LinearLayout android:id="@id/bokeh_expand_root" android:visibility="visible" style="@style/ManualModeLayout">
+        <ImageView android:id="@id/bokeh_item_indicator_arrow_left" style="@style/ManualModeLeftIndicator" />
+        <com.android.camera.ui.ManualModeHorizontalScrollView android:id="@id/layout_mode_manual_bokeh_scroll" style="@style/ManualModeHorizontalScrollView">
+            <LinearLayout android:id="@id/layout_mode_manual_bokeh_options" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.android.camera.ui.ManualModeHorizontalScrollView>
+        <ImageView android:id="@id/bokeh_item_indicator_arrow_right" style="@style/ManualModeRightIndicator" />
+    </LinearLayout>
+</FrameLayout>

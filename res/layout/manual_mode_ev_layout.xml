@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/layout_mode_manual_ev" style="@style/ManualModeLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.RotateLayout android:id="@id/manual_mode_ev_current_item_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout style="@style/ManualModeTextViewContainer">
+            <ImageView android:id="@id/ll_mode_manual_ev" style="@style/ManualModeOptionImage" />
+            <TextView android:id="@id/tv_mode_manual_ev" style="@style/ManualModeTextView" />
+        </FrameLayout>
+    </com.android.camera.ui.RotateLayout>
+    <ImageView android:id="@id/ev_item_indicator_arrow_left" style="@style/ManualModeLeftIndicator" />
+    <com.android.camera.ui.ManualModeHorizontalScrollView android:id="@id/layout_mode_manual_ev_scroll" style="@style/ManualModeHorizontalScrollView">
+        <LinearLayout android:id="@id/layout_mode_manual_ev_options" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.android.camera.ui.ManualModeHorizontalScrollView>
+    <ImageView android:id="@id/ev_item_indicator_arrow_right" style="@style/ManualModeRightIndicator" />
+</LinearLayout>

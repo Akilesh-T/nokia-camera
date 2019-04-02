@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="access_sd_fail">‏تعذر الدخول إلى بطاقة SD.</string>
+    <string name="alert_storage_dialog_ok">موافق</string>
+    <string name="barcode_license_format_content">"رقم الترخيص: %1$s
+المدينة: %2$s
+الولاية: %3$s
+الشارع: %4$s
+الرمز البريدي: %5$s
+تاريخ الميلاد: %6$s 
+نوع المستند: %7$s
+تاريخ انتهاء الصلاحية: %8$s
+الاسم الأول: %9$s
+الاسم الأوسط: %10$s
+الاسم الأخير: %11$s
+الجنس: %12$s
+تاريخ الإصدار: %13$s
+بلد الإصدار: %14$s"</string>
+    <string name="barcode_show_text_activity_label">ماسح رمز QR</string>
+    <string name="barcode_title_calendar">إضافة إلى التقويم</string>
+    <string name="barcode_title_email">كتابة رسالة بريد إلكتروني إلى</string>
+    <string name="barcode_title_geo">فتح في الخريطة</string>
+    <string name="barcode_title_license">عرض ترخيص الغواص / معلومات المعرّف</string>
+    <string name="barcode_title_sms">كتابة رسالة إلى</string>
+    <string name="barcode_title_text">عرض النص</string>
+    <string name="barcode_title_wifi">الاتصال بشبكة Wi-Fi</string>
+    <string name="beauty_mode_off">إيقاف تشغيل وضع التجميل</string>
+    <string name="beauty_mode_off_desc">إيقاف تشغيل وضع التجميل</string>
+    <string name="beauty_mode_on">تشغيل وضع التجميل</string>
+    <string name="beauty_mode_on_desc">تشغيل وضع التجميل</string>
+    <string name="copy_complete">اكتمل النسخ</string>
+    <string name="dialog_ok">موافق</string>
+    <string name="dualsight_setting_off">إيقاف تشغيل الالتقاط مرتين</string>
+    <string name="dualsight_setting_on">تشغيل الالتقاط مرتين</string>
+    <string name="dualsight_tutorial_hint">اضغط على الفاصل مع الاستمرار والسحب لتعديل نسبة أبعاد الشاشة</string>
+    <string name="dualsight_tutorial_pinch_hint">اسحب بإصبعين بعيدًا عن بعضهما للتكبير خارج لوحة التحكم</string>
+    <string name="effect_download_no_network">لا يوجد اتصال بالإنترنت، يرجى إعادة المحاولة لاحقًا</string>
+    <string name="effect_download_unload_dialog_message">"هل أنت متأكد من أنك تريد الحذف؟ 
+لن يتوفر العنصر للتحميل على السحابة."</string>
+    <string name="effect_resources_have_update">تم تحديث المورد، يرجى تنزيله مرة أخرى.</string>
+    <string name="g_depth_type_description">تحتوي هذه الصورة على خريطة عمق ويمكن إعادة تركيزها.</string>
+    <string name="g_depth_type_name">العمق</string>
+    <string name="live_broadcast_edit_dialog_ok">موافق</string>
+    <string name="mode_selifebokeh_desc">التغيير إلى وضع Selfie Bokeh</string>
+    <string name="mode_square_desc">التغيير إلى وضع المربع</string>
+    <string name="motion_mode_off">إيقاف تشغيل الحركة</string>
+    <string name="motion_mode_off_desc">إيقاف تشغيل الحركة</string>
+    <string name="motion_mode_on">تشغيل الحركة</string>
+    <string name="motion_mode_on_desc">تشغيل الحركة</string>
+    <string name="msg_burst_not_support_in_bokeh">وضع التتابع غير مدعوم في وضع Live Bokeh.</string>
+    <string name="msg_ozo_enabled">تم تمكين صوت OZO.</string>
+    <string name="no_storage">‏أدرج بطاقة SD قبل استخدام الكاميرا.</string>
+    <string name="permission_check">موافق</string>
+    <string name="permission_location_denied">تم تجاهل الحصول على الموقع، لا يمكن الإشارة إلى الموقع.</string>
+    <string name="pref_brand_logo_show_description">إظهار العلامة المائية على الصور</string>
+    <string name="pref_camera_auto_hdr_description">وضع الصورة فقط</string>
+    <string name="pref_camera_auto_hdr_title">يدعم HDR</string>
+    <string name="pref_camera_bokeh_status_hint_message">حدد موضوعًا لعرض Live Bokeh</string>
+    <string name="pref_camera_bokeh_status_no_depth">لا يوجد عمق</string>
+    <string name="pref_camera_bokeh_status_no_object">لم يتم العثور على الموضوع</string>
+    <string name="pref_camera_bokeh_status_sucess">نجح العمق</string>
+    <string name="pref_camera_bokeh_status_too_dark">ظلام شديد</string>
+    <string name="pref_camera_bokeh_status_too_far">بعيدة للغاية</string>
+    <string name="pref_camera_bokeh_status_too_near">قريبة للغاية</string>
+    <string name="pref_camera_whitebalance_title">توازن الأبيض</string>
+    <string name="pref_common_raw_support_boolean_description">وضع الصورة ووضع Pro فقط</string>
+    <string name="pref_common_raw_support_boolean_title">يدعم ملفات RAW</string>
+    <string name="pref_manage_mode_description">يمكنك تغيير تسلسل الأوضاع حتى تناسب استخدامك</string>
+    <string name="pref_manage_mode_title">إدارة الأوضاع</string>
+    <string name="pref_raw_files_support_dng">حفظ ملفات RAW بتنسيق DNG</string>
+    <string name="pref_raw_files_support_lri">حفظ ملفات RAW بتنسيق LRI</string>
+    <string name="pref_raw_files_support_title">"يدعم ملفات RAW
+(وضع الصورة الجزئية ووضع Pro فقط)"</string>
+    <string name="pref_scene_detection_description">اكتشاف مشاهد مختلفة لتطبيق المعلمات البصرية المختلفة تلقائيًا</string>
+    <string name="pref_video_time_lapse_frame_interval_2500">25 ثانية</string>
+    <string name="preparing_sd">‏جارٍ تحضير بطاقة SD…</string>
+    <string name="pro_mode_tutorial_swipe_down_hint">مرر زر الالتقاط لأسفل لطي حلقة وضع Pro.</string>
+    <string name="pro_mode_tutorial_swipe_exit_hint">مرر زر الالتقاط لأسفل مرة أخرى للخروج من وضع Pro.</string>
+    <string name="pro_mode_tutorial_swipe_up_once_hint">مرر زر الالتقاط لأعلى لتمكين وضع Pro.</string>
+    <string name="pro_mode_tutorial_swipe_up_twice_hint">مرر زر الالتقاط لأعلى مرة أخرى لإعادة تعيين المعلمات.</string>
+    <string name="scene_animal">حيوان</string>
+    <string name="scene_baby">رضيع</string>
+    <string name="scene_bar">حانة</string>
+    <string name="scene_buildings">مبانٍ</string>
+    <string name="scene_cafeteria">كافيتريا</string>
+    <string name="scene_cat">قطة</string>
+    <string name="scene_credentials">بيانات الاعتماد</string>
+    <string name="scene_dessert">حلوى</string>
+    <string name="scene_dog">كلب</string>
+    <string name="scene_fireworks">ألعاب نارية</string>
+    <string name="scene_green_plant">نبات أخضر</string>
+    <string name="scene_handwritten_text">نص مكتوب بخط اليد</string>
+    <string name="scene_indoor">داخلي</string>
+    <string name="scene_landscape">منظر طبيعي</string>
+    <string name="scene_nightscape">منظر ليلي</string>
+    <string name="scene_ocean">محيط</string>
+    <string name="scene_outdoor">مشهد خارجي</string>
+    <string name="scene_plant">نبات</string>
+    <string name="scene_printed_text">نص مطبوع</string>
+    <string name="scene_projector_screen">شاشة جهاز العرض</string>
+    <string name="scene_qrcode">Qrcode</string>
+    <string name="scene_receipt">مستلم</string>
+    <string name="scene_skeyscraper">ناطحة سحاب</string>
+    <string name="scene_sky">سماء</string>
+    <string name="scene_sports">رياضات</string>
+    <string name="scene_sunrise_sunset">شروق الشمس وغروبها</string>
+    <string name="scene_wedding">حفل زفاف</string>
+    <string name="spaceIsLow_content">‏أوشكت المساحة الخالية في بطاقة SD على النفاد. غيّر إعداد الجودة أو احذف بعض الصور أو الملفات الأخرى.</string>
+    <string name="watermark_edit_dialog_ok">موافق</string>
+    <string name="white_balance">توازن الأبيض</string>
+</resources>

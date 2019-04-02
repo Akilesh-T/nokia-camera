@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.BarcodeRotateLayout android:id="@id/scene_detection_barcode_root" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/bottom_bar_height_optimal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/scene_detection_barcode_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/barcode_display" android:background="@drawable/scene_detection_barcode_background" android:paddingLeft="@dimen/function_barcode_display_padding" android:paddingTop="@dimen/function_barcode_display_padding_top" android:paddingRight="@dimen/function_barcode_display_padding" android:visibility="gone" android:layout_width="@dimen/function_barcode_display_width" android:layout_height="@dimen/function_barcode_display_height" android:layout_marginTop="@dimen/function_barcode_display_margin_top" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/barcode_main_action" android:layout_width="fill_parent" android:layout_height="@dimen/function_barcode_display_result_height">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/barcode_title_image" android:background="@drawable/barcode_icon_title" android:layout_width="@dimen/function_barcode_display_title_width" android:layout_height="@dimen/function_barcode_display_title_height" />
+                    <TextView android:textSize="@dimen/function_barcode_display_title_text_size" android:textColor="#ff4586e2" android:layout_gravity="center_vertical" android:id="@id/barcode_display_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/function_barcode_display_title_margin_left" android:text="@string/barcode_show_text_activity_label" android:fontFamily="roboto_bold" />
+                    <ImageView android:id="@id/barcode_title_arrow" android:background="@drawable/scene_detection_barcode_arrow" android:layout_width="@dimen/function_barcode_display_title_width" android:layout_height="@dimen/function_barcode_display_title_height" android:layout_marginLeft="@dimen/function_barcode_display_title_margin_left" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/function_barcode_display_content_text_size" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/barcode_display_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="roboto_regular" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/function_barcode_display_action_text_size" android:textColor="#ff4586e2" android:gravity="center" android:id="@id/barcode_second_action" android:paddingRight="@dimen/function_barcode_display_padding" android:layout_width="@dimen/function_barcode_display_option_width" android:layout_height="wrap_content" android:text="@string/barcode_title_url" android:fontFamily="roboto_bold" />
+                <TextView android:textSize="@dimen/function_barcode_display_action_text_size" android:textColor="#ff4586e2" android:gravity="center" android:id="@id/barcode_third_action" android:paddingLeft="@dimen/function_barcode_display_padding" android:layout_width="@dimen/function_barcode_display_option_width" android:layout_height="wrap_content" android:text="@string/barcode_copy" android:fontFamily="roboto_bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</com.android.camera.ui.BarcodeRotateLayout>

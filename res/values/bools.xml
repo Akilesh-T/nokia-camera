@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="show_action_bar_title">false</bool>
+    <bool name="abc_allow_stacked_button_bar">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="arcsoft_smart_Low_Light_paramter">false</bool>
+    <bool name="arcsoft_smart_denoise_paramter">false</bool>
+    <bool name="com_fihtdc_camera_feature_arcsoft_lowlight">true</bool>
+    <bool name="com_fihtdc_camera_feature_arcsoft_pbc">true</bool>
+    <bool name="com_fihtdc_camera_feature_arcsoft_smartdenoise">true</bool>
+    <bool name="lowlight_front_need_sharpe">true</bool>
+    <bool name="lowlight_rear_need_sharpe">true</bool>
+</resources>

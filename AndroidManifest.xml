@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.hmdglobal.camera2" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BIND_WALLPAPER"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_READ"/>
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_WRITE"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="false"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <application android:allowBackup="false" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:hardwareAccelerated="true" android:icon="@mipmap/fih_camera" android:label="@string/app_name" android:largeHeap="true" android:name="com.android.camera.app.CameraApp" android:restoreAnyVersion="true" android:roundIcon="@mipmap/fih_camera_o_round" android:supportsRtl="true" android:theme="@style/Theme.Camera" android:usesCleartextTraffic="false">
+        <uses-library android:name="com.fihtdc.DataCollect" android:required="false"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.android.camera.CameraActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:taskAffinity="com.android.camera.CameraActivity" android:theme="@style/Theme.Camera" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.hmdglobal.action.CAMERA_BOTH_CAMERA_STREAMING_YOUTUBE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.hmdglobal.action.CAMERA_BOTH_CAMERA_STREAMING_FACEBOOK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.hmdglobal.action.CAMERA_PROCAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.hmdglobal.action.CAMERA_MOTION_PICTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_widget"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:label="@string/app_name" android:name="com.android.camera.PermissionsActivity" android:parentActivityName="com.android.camera.CameraActivity" android:resizeableActivity="false" android:screenOrientation="portrait">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.android.camera.CameraActivity"/>
+        </activity>
+        <activity-alias android:label="@string/app_name" android:name="com.android.camera.CameraLauncher" android:targetActivity="com.android.camera.CameraActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="com.android.camera.CaptureActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:theme="@style/Theme.Camera" android:visibleToInstantApps="true" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:label="@string/video_camera_label" android:name="com.android.camera.VideoCamera" android:targetActivity="com.android.camera.CaptureActivity" android:visibleToInstantApps="true">
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/app_name" android:name="com.android.camera.SecureCameraActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:taskAffinity="com.android.camera.SecureCameraActivity" android:theme="@style/Theme.SecureCamera" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_widget"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/mode_settings" android:name="com.android.camera.settings.CameraSettingsActivity" android:resizeableActivity="false" android:theme="@style/Theme.CameraSettings">
+            <intent-filter>
+                <action android:name="com.hmdglobal.camera2.EDIT_LOCATION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="DataCollect_AppKey" android:value="0x0000003B"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/setting_location" android:name="com.android.camera.watermark.WatermarkLocationActivity" android:resizeableActivity="false" android:theme="@style/Theme.CameraSettings"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/mode_settings" android:name="com.android.camera.livebroadcast.AccountInfoActivity" android:theme="@style/Theme.CameraSettings"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:theme="@style/FacebookTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.android.camera.livebroadcast.youtube.AuthActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.DeviceDefault.NoActionBar"/>
+        <provider android:authorities="@string/provider_authority" android:exported="true" android:grantUriPermissions="true" android:name="com.google.android.apps.photos.api.PhotoOemProvider.PhotosOemApiContentProvider" android:syncable="false"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/barcode_show_text_activity_label" android:name="com.android.camera.barcode.BarcodeTextActivity" android:resizeableActivity="false" android:theme="@style/Theme.CameraSettings"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/app_name" android:name="com.android.camera.KeyguardCameraActivity" android:resizeableActivity="false" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <provider android:authorities="@string/provider_authority" android:exported="true" android:name="com.android.camera.SpeicalTypeProviders.DepthTypeDBProvider"/>
+        <provider android:authorities="com.android.camera.effect.provider.effectprovider" android:exported="true" android:name="com.android.camera.effect.provider.EffectProvider"/>
+        <service android:name="com.android.camera.effect.download.ResultPostService"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity android:name="com.facebook.CustomTabActivity"/>
+        <provider android:authorities="com.hmdglobal.camera2.MarketingInitProvider" android:exported="false" android:name="com.facebook.marketing.internal.MarketingInitProvider"/>
+        <provider android:authorities="com.hmdglobal.camera2.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+    </application>
+</manifest>

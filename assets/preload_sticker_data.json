@@ -1,0 +1,20 @@
+[
+  {
+    "key": "flower_1809",
+    "from": "preload",
+    "iconUrl":"fpp_flower",
+    "resourceUrl": "flower_1809.zip"
+  },
+  {
+    "key": "uk_panda",
+    "from": "preload",
+    "iconUrl":"fpp_uk_panda",
+    "resourceUrl": "uk_panda.zip"
+  },
+  {
+    "key": "cow",
+    "from": "preload",
+    "iconUrl":"fpp_cow",
+    "resourceUrl": "cow.zip"
+  }
+]

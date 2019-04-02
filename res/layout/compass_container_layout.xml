@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.compass.CompassContainerLayout android:id="@id/compass_container_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.compass.CompassTipContainerLayout android:id="@id/compass_tip_container_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/compass_tip_layout" android:background="@color/function_compass_tip_background" android:layout_width="fill_parent" android:layout_height="@dimen/function_compass_height">
+                <TextView android:textSize="@dimen/function_compass_text_size" android:textColor="@color/function_compass_tip_color" android:gravity="center_vertical" android:id="@id/compass_tip_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="" android:layout_marginStart="@dimen/function_compass_margin_start" />
+                <TextView android:textSize="@dimen/function_compass_text_size" android:textColor="@color/function_compass_tip_color" android:gravity="center_vertical" android:id="@id/compass_tip_heading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.android.camera.ui.compass.CompassTipContainerLayout>
+    <com.android.camera.ui.RotateLayout android:layout_gravity="center" android:id="@id/compass_arrow_container_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/compass_arrow" />
+        </FrameLayout>
+    </com.android.camera.ui.RotateLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/compass_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/compass_circle" />
+</com.android.camera.ui.compass.CompassContainerLayout>

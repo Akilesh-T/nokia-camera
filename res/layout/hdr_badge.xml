@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="end" android:orientation="vertical" android:id="@id/hdr_badge_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:layout_marginEnd="@dimen/mode_options_margin_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.RotateImageView android:id="@id/hdr_badge" android:visibility="invisible" android:layout_width="@dimen/mode_option_height" android:layout_height="@dimen/mode_option_height" android:src="@drawable/hdr_badge" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/layout_mode_manual_meter" style="@style/ManualModeLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.RotateLayout android:id="@id/manual_mode_meter_current_item_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout style="@style/ManualModeTextViewContainer">
+            <ImageView android:id="@id/ll_mode_manual_meter" style="@style/ManualModeOptionImage" />
+            <TextView android:id="@id/tv_mode_manual_meter" style="@style/ManualModeTextView" />
+        </FrameLayout>
+    </com.android.camera.ui.RotateLayout>
+    <Space android:layout_width="@dimen/manual_mode_option_width" android:layout_height="fill_parent" />
+    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_mode_manual_meter_options" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+</LinearLayout>

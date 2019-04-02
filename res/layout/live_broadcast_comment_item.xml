@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/live_broadcast_comment_item_thumbnail_margin_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/live_broadcast_comment_item_thumbnail" android:layout_width="@dimen/live_broadcast_comment_item_thumbnail_size" android:layout_height="@dimen/live_broadcast_comment_item_thumbnail_size" android:layout_marginTop="@dimen/live_broadcast_comment_item_thumbnail_margin_vertical" android:layout_marginBottom="@dimen/live_broadcast_comment_item_thumbnail_margin_vertical" android:src="@drawable/default_avatar" android:scaleType="fitCenter" android:layout_marginEnd="@dimen/live_broadcast_comment_item_thumbnail_margin_end" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_broadcast_comment_item_thumbnail_margin_vertical" android:layout_marginEnd="@dimen/live_broadcast_comment_item_thumbnail_margin_end">
+        <TextView android:textSize="@dimen/live_broadcast_comment_item_name_text_size" android:textColor="@android:color/white" android:id="@id/live_broadcast_comment_item_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/TextShadow" />
+        <TextView android:textSize="@dimen/live_broadcast_comment_item_dialogue_text_size" android:textColor="@android:color/white" android:id="@id/live_broadcast_comment_item_dialogue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/TextShadow" />
+    </LinearLayout>
+</LinearLayout>

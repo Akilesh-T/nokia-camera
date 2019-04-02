@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bottom_bar_capture_margin_top" android:layout_weight="1.0" android:layout_marginEnd="@dimen/bottom_bar_video_snapshot_margin_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.VideoSnapShotButton android:id="@id/camera_video_snapshot_control" android:visibility="invisible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/rotate_progress_dialog_root" android:background="#99000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.RotateLayout android:gravity="center" android:layout_gravity="center" android:id="@id/rotate_progress_dialog_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <TextView android:textSize="@dimen/live_broadcast_progress_dialog_text_size" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/rotate_progress_dialog_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/live_broadcast_progress_dialog_text_margin_bottom" />
+            <com.android.camera.livebroadcast.status.HorizontalDottedProgressBar android:id="@id/rotate_progress_dialog_progressed_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.android.camera.ui.RotateLayout>
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/pro_mode_tutorial_root" android:background="@android:color/black" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.promode.ProModeTutorialRotateLayout android:id="@id/pro_mode_tutorial_rotate_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/panel_root1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <ImageView android:id="@id/pro_tutorial_iv" android:layout_width="@dimen/pro_mode_tutorial_image_size_width" android:layout_height="@dimen/pro_mode_tutorial_image_size_height" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/panel_root2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+                <TextView android:id="@id/pro_tutorial_tv" android:layout_centerHorizontal="true" style="@style/ProModeTutorialTextView" />
+                <LinearLayout android:id="@id/indicator_root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                    <ImageView android:id="@id/indicator_swipe_up_one" android:layout_width="@dimen/pro_mode_tutorial_indicator_image_size" android:layout_height="@dimen/pro_mode_tutorial_indicator_image_size" />
+                    <ImageView android:id="@id/indicator_swipe_up_twice" android:layout_width="@dimen/pro_mode_tutorial_indicator_image_size" android:layout_height="@dimen/pro_mode_tutorial_indicator_image_size" />
+                    <ImageView android:id="@id/indicator_swipe_down" android:layout_width="@dimen/pro_mode_tutorial_indicator_image_size" android:layout_height="@dimen/pro_mode_tutorial_indicator_image_size" />
+                    <ImageView android:id="@id/indicator_swipe_exit" android:layout_width="@dimen/pro_mode_tutorial_indicator_image_size" android:layout_height="@dimen/pro_mode_tutorial_indicator_image_size" />
+                </LinearLayout>
+                <RelativeLayout android:id="@id/button_root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/indicator_root" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                    <Button android:id="@id/pro_tutorial_btn_skip" android:background="@android:color/transparent" android:visibility="gone" android:text="@string/pro_mode_tutorial_btn_skip" android:layout_alignParentLeft="true" style="@style/ProModeTutorialButton" />
+                    <Button android:id="@id/pro_tutorial_btn_finish" android:visibility="invisible" android:text="@string/pro_mode_tutorial_btn_finish" android:layout_centerHorizontal="true" style="@style/ProModeTutorialButton" />
+                    <Button android:id="@id/pro_tutorial_btn_next" android:visibility="gone" android:text="@string/startup_dialog_button_next" android:layout_alignParentRight="true" style="@style/ProModeTutorialButton" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.android.camera.ui.promode.ProModeTutorialRotateLayout>
+</FrameLayout>

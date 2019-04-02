@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="300" android:drawable="@drawable/watermark_dotted_background" />
+    <item android:duration="300" android:drawable="@drawable/watermark_dotted_transparent_background" />
+    <item android:duration="300" android:drawable="@drawable/watermark_dotted_background" />
+    <item android:duration="300" android:drawable="@drawable/watermark_dotted_transparent_background" />
+    <item android:duration="300" android:drawable="@drawable/watermark_dotted_background" />
+    <item android:duration="300" android:drawable="@drawable/watermark_dotted_transparent_background" />
+</animation-list>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/live_broadcast_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/live_broadcast_reactions" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.camera.ui.RotateLayout android:layout_gravity="end|center|top" android:id="@id/live_broadcast_live_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/live_broadcast_icon_margin_end">
+        <ImageView android:background="@drawable/live" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.android.camera.ui.RotateLayout>
+    <com.android.camera.livebroadcast.status.LiveBroadcastRoot android:id="@id/live_broadcast_image" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_gravity="bottom" android:id="@id/live_broadcast_comment_background" android:background="@drawable/live_broadcast_comments_background" android:layout_width="fill_parent" android:layout_height="@dimen/live_broadcast_comment_height" />
+            <android.support.v7.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/live_broadcast_comment" android:layout_width="fill_parent" android:layout_height="@dimen/live_broadcast_comment_height" android:layout_marginBottom="@dimen/live_broadcast_comment_margin_bottom" />
+            <FrameLayout android:background="@drawable/live_broadcast_count_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/live_broadcast_count_margin_start" android:layout_above="@id/live_broadcast_comment" android:layout_marginStart="@dimen/live_broadcast_count_margin_start" android:layout_alignStart="@id/live_broadcast_comment">
+                <TextView android:textSize="@dimen/live_broadcast_count_text_size" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/live_broadcast_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/live_broadcast_count_padding_inside" android:drawableStart="@drawable/eye" android:paddingStart="@dimen/live_broadcast_count_padding_inside" android:paddingEnd="@dimen/live_broadcast_count_padding_inside" />
+            </FrameLayout>
+        </RelativeLayout>
+    </com.android.camera.livebroadcast.status.LiveBroadcastRoot>
+</FrameLayout>

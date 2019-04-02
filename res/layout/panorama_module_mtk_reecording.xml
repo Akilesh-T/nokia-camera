@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/pano_background_portrait" android:background="@color/background_color_translate60" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/pano_preview_short_side" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/pano_background_landscape" android:background="@color/background_color_translate60" android:visibility="gone" android:layout_width="@dimen/pano_preview_short_side" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/shutter_size" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/panorama_preview_vert_background_line" android:background="@color/pano_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/preview_background_line_height" android:layout_marginLeft="@dimen/pano_indicator_halfsize" android:layout_marginRight="@dimen/pano_indicator_halfsize" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/panorama_preview_vert" android:background="@color/color_ff6400_translate50" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/pano_preview_short_side" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/panorama_preview_hori_background_line" android:background="@color/pano_line" android:visibility="gone" android:layout_width="@dimen/preview_background_line_height" android:layout_height="fill_parent" android:layout_marginTop="@dimen/pano_indicator_halfsize" android:layout_marginBottom="@dimen/shutter_size" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/panorama_preview_hori" android:background="@color/color_ff6400_translate50" android:visibility="gone" android:layout_width="@dimen/pano_preview_short_side" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/pano_indicator_up" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/pano_indicator_left_margin" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/pano_indicator_down" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:rotation="180.0" android:layout_marginEnd="@dimen/pano_indicator_right_margin" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/pano_indicator_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:rotation="270.0" />
+        <ImageView android:id="@id/pano_indicator_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pano_indicator_up_margin" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:rotation="90.0" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mLinearLayout" android:clickable="true" android:layout_width="@dimen/effect_gallery_item_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="@dimen/effect_gallery_item_width" android:layout_height="@dimen/effect_gallery_item_height" android:layout_alignParentTop="true">
+        <com.android.camera.ui.RotateImageView android:id="@id/item_Iv" android:clickable="false" android:layout_width="@dimen/effect_gallery_item_width" android:layout_height="@dimen/effect_gallery_item_height" android:layout_centerInParent="true" />
+        <com.android.camera.ui.RotateImageView android:id="@id/download_icon" android:visibility="invisible" android:layout_width="@dimen/effect_gallery_item_download_tip_icon_width" android:layout_height="@dimen/effect_gallery_item_download_tip_icon_height" android:layout_marginTop="@dimen/effect_gallery_item_download_tip_icon_margintop" android:layout_marginRight="@dimen/effect_gallery_item_download_tip_icon_marginright" android:src="@drawable/download_icon" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <com.android.camera.ui.RotateImageView android:id="@id/delete_icon" android:visibility="invisible" android:layout_width="@dimen/effect_gallery_item_download_tip_icon_width" android:layout_height="@dimen/effect_gallery_item_download_tip_icon_height" android:layout_marginTop="@dimen/effect_gallery_item_download_tip_icon_margintop" android:layout_marginRight="@dimen/effect_gallery_item_download_tip_icon_marginright" android:src="@drawable/delete_icon" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <ProgressBar android:id="@id/loading_progress" android:visibility="invisible" android:layout_width="@dimen/effect_gallery_item_progressbar_width" android:layout_height="@dimen/effect_gallery_item_progressbar_height" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:background="@drawable/style_transfer_selector" android:layout_width="@dimen/effect_gallery_item_width" android:layout_height="@dimen/effect_gallery_item_height" android:layout_alignParentTop="true" />
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Scene Selector:      " />
+        <Spinner android:entries="@array/scene_detection_names" android:id="@id/scene_selector_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:popupBackground="@android:color/white" />
+    </LinearLayout>
+    <TextView android:textColor="@android:color/holo_red_light" android:id="@id/scene_parmeter_id" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Saturation: " />
+        <EditText android:id="@id/scene_saturation_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter Saturation here" android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Contrast: " />
+        <EditText android:id="@id/scene_contrast_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter Contrast here" android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sharpness: " />
+        <EditText android:id="@id/scene_sharpness_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter Sharpness here" android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Exposure: " />
+        <EditText android:id="@id/scene_exposure_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter Exposure here" android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="R: " />
+        <EditText android:id="@id/R_gain_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter R gain here" android:inputType="numberDecimal" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="G: " />
+        <EditText android:id="@id/G_gain_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter G gain here" android:inputType="numberDecimal" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="B: " />
+        <EditText android:id="@id/B_gain_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter B gain here" android:inputType="numberDecimal" />
+    </LinearLayout>
+</LinearLayout>

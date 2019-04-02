@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:id="@id/bottombar_intent_review" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bottom_bar_capture_margin_top">
+        <com.android.camera.ui.RotateLayout android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/bottom_bar_switch_camera_margin_start">
+            <ImageButton android:id="@id/retake_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/retake_button_description" />
+        </com.android.camera.ui.RotateLayout>
+        <com.android.camera.ui.RotateLayout android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/bottom_bar_switch_camera_margin_start">
+            <ImageButton android:id="@id/done_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/done_button_description" />
+        </com.android.camera.ui.RotateLayout>
+        <ImageButton android:layout_gravity="center" android:id="@id/cancel_button" android:background="@null" android:padding="24.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/cancel_button_description" />
+    </FrameLayout>
+</merge>

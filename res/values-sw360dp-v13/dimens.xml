@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_bar_height_max">160.1dip</dimen>
+    <dimen name="bottom_bar_height_max_large_screen">202.79999dip</dimen>
+    <dimen name="bottom_bar_height_min">160.1dip</dimen>
+    <dimen name="bottom_bar_height_min_large_screen">202.79999dip</dimen>
+    <dimen name="bottom_bar_height_optimal">160.1dip</dimen>
+    <dimen name="bottom_bar_height_optimal_large_screen">202.79999dip</dimen>
+    <dimen name="bottom_bar_mode_text_margin_top">7.0dip</dimen>
+    <dimen name="bottom_bar_mode_text_margin_top_large_screen">24.599976dip</dimen>
+    <dimen name="mode_control_bar_margin_bottom">160.1dip</dimen>
+    <dimen name="mode_options_height">37.599976dip</dimen>
+    <dimen name="pano_indicator_view_margin_top">275.0dip</dimen>
+    <dimen name="capture_margin_top">16.0dip</dimen>
+</resources>

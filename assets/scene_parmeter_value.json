@@ -1,0 +1,173 @@
+[
+  {
+    "ID" : 0,
+    "name" : "people",
+    "Saturation" : "5",
+    "Contrast" : "4",
+    "Sharpness" : "1",
+    "Exposure" : "2",
+    "AWBRGBGains" : "1.0f,1.0f,1.0f"
+  },
+  {
+    "ID" : 1,
+    "name" : "food",
+    "Saturation" : "6",
+    "Contrast" : "5",
+    "Sharpness" : "1",
+    "Exposure" : "1",
+    "AWBRGBGains" : "1.0f,1.0f,1.0f"
+  },
+  {
+    "ID" : 2,
+    "name" : "animal",
+    "Saturation" : "6",
+    "Contrast" : "5",
+    "Sharpness" : "1",
+    "Exposure" : "1",
+    "AWBRGBGains" : "1.0f,1.0f,1.0f"
+  },
+  {
+    "ID" : 3,
+    "name" : "plant",
+    "Saturation" : "6",
+    "Contrast" : "5",
+    "Sharpness" : "1",
+    "Exposure" : "0",
+    "AWBRGBGains" : "1.0f,1.0f,1.0f"
+  },
+  {
+    "ID" : 4,
+    "name" : "flower",
+    "Saturation" : "6",
+    "Contrast" : "5",
+    "Sharpness" : "1",
+    "Exposure" : "0",
+    "AWBRGBGains" : "1.0f,1.0f,1.0f"
+  },
+  {
+    "ID" : 5,
+    "name" : "landscape",
+    "Saturation" : "5",
+    "Contrast" : "5",
+    "Sharpness" : "1",
+    "Exposure" : "0",
+    "AWBRGBGains" : "0.96f,1.0f,1.045f"
+  },
+  {
+    "ID" : 6,
+    "name" : "ocean",
+    "Saturation" : "5",
+    "Contrast" : "5",
+    "Sharpness" : "1",
+    "Exposure" : "0",
+    "AWBRGBGains" : "1.0f,1.0f,1.04f"
+  },
+  {
+    "ID" : 7,
+    "name" : "sky",
+    "Saturation" : "5",
+    "Contrast" : "7",
+    "Sharpness" : "1",
+    "Exposure" : "0",
+    "AWBRGBGains" : "1.0f,1.0f,1.04f"
+  },
+  {
+    "ID" : 8,
+    "name" : "sunrise&sunset",
+    "Saturation" : "5",
+    "Contrast" : "6",
+    "Sharpness" : "1",
+    "Exposure" : "0",
+    "AWBRGBGains" : "1.01f,1.0f,0.99f"
+  },
+  {
+    "ID" : 9,
+    "name" : "snow",
+    "Saturation" : "5",
+    "Contrast" : "5",
+    "Sharpness" : "1",
+    "Exposure" : "3",
+    "AWBRGBGains" : "1.0f,1.0f,1.0f"
+  },
+  {
+    "ID" : 10,
+    "name" : "dessert",
+    "Saturation" : "5",
+    "Contrast" : "5",
+    "Sharpness" : "3",
+    "Exposure" : "0",
+    "AWBRGBGains" : "1.01f,1.0f,0.99f"
+  },
+  {
+    "ID" : 11,
+    "name" : "nightscape",
+    "Saturation" : "5",
+    "Contrast" : "5",
+    "Sharpness" : "1",
+    "Exposure" : "0",
+    "AWBRGBGains" : "1.0f,1.0f,1.0f"
+  },
+  {
+    "ID" : 12,
+    "name" : "fireworks",
+    "Saturation" : "5",
+    "Contrast" : "5",
+    "Sharpness" : "1",
+    "Exposure" : "0",
+    "AWBRGBGains" : "1.0f,1.0f,1.0f"
+  },
+  {
+    "ID" : 13,
+    "name" : "buildings",
+    "Saturation" : "5",
+    "Contrast" : "6",
+    "Sharpness" : "3",
+    "Exposure" : "0",
+    "AWBRGBGains" : "1.0f,1.0f,1.0f"
+  },
+  {
+    "ID" : 14,
+    "name" : "indoor",
+    "Saturation" : "5",
+    "Contrast" : "5",
+    "Sharpness" : "1",
+    "Exposure" : "0",
+    "AWBRGBGains" : "1.0f,1.0f,1.0f"
+  },
+  {
+    "ID" : 15,
+    "name" : "outdoor",
+    "Saturation" : "5",
+    "Contrast" : "5",
+    "Sharpness" : "1",
+    "Exposure" : "0",
+    "AWBRGBGains" : "0.96f,1.0f,1.045f"
+  },
+  {
+    "ID" : 16,
+    "name" : "Text",
+    "Saturation" : "5",
+    "Contrast" : "6",
+    "Sharpness" : "3",
+    "Exposure" : "0",
+    "AWBRGBGains" : "1.0f,1.0f,1.0f"
+  },
+  {
+    "ID" : 17,
+    "name" : "qrcode",
+    "Saturation" : "5",
+    "Contrast" : "5",
+    "Sharpness" : "1",
+    "Exposure" : "0",
+    "AWBRGBGains" : "1.0f,1.0f,1.0f"
+  },
+  {
+    "ID" : 18,
+    "name" : "other",
+    "Saturation" : "5",
+    "Contrast" : "5",
+    "Sharpness" : "1",
+    "Exposure" : "0",
+    "AWBRGBGains" : "1.0f,1.0f,1.0f"
+  }
+]

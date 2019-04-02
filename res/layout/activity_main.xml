@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.MainActivityLayout android:id="@id/activity_root_view" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.RotateLayout android:id="@id/mode_transition_rotate_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.camera.ui.ModeTransitionView android:id="@id/mode_transition_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.android.camera.ui.RotateLayout>
+</com.android.camera.ui.MainActivityLayout>
